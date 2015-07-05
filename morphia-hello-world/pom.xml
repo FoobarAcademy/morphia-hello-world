@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+http://maven.apache.org/xsd/maven-4.0.0.xsd"
+>
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.foobaracademy.morphia</groupId>
+  <artifactId>morphia-hello-world</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>Morphia Hello world example</name>
+  <url>http://www.foobaracademy.com</url>
+
+  <properties>
+    	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+	<dependency>
+       <groupId>org.mongodb.morphia</groupId>
+       <artifactId>morphia</artifactId>
+       <version>1.0.0-rc0</version>
+    </dependency>
+  </dependencies>
+</project>
